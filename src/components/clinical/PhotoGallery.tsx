@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import { Camera, X, Download } from 'lucide-react'
+import { Camera, X } from 'lucide-react'
 import { ref, uploadString, getDownloadURL } from 'firebase/storage'
 import { storage } from '../../services/firebase'
 import imageCompression from 'browser-image-compression'

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { collection, addDoc } from 'firebase/firestore'
 import { db } from '../../services/firebase'
-import { Calendar, Clock, User, Phone } from 'lucide-react'
+import { Calendar, User, Phone } from 'lucide-react'
 
 export default function PublicBooking() {
   const [formData, setFormData] = useState({ name: '', phone: '', date: '', notes: '' })

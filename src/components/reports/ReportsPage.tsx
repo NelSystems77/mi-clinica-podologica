@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { collection, getDocs, query, where } from 'firebase/firestore'
+import { collection, getDocs } from 'firebase/firestore'
 import { db } from '../../services/firebase'
 import { useAuth } from '../../contexts/AuthContext'
 import { FileDown, BarChart3, TrendingUp } from 'lucide-react'

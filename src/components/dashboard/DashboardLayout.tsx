@@ -1,6 +1,6 @@
 import { Outlet, Link, useLocation } from 'react-router-dom'
 import { useAuth } from '../../contexts/AuthContext'
-import { Users, Calendar, FileText, BarChart3, LogOut, Activity } from 'lucide-react'
+import { Users, Calendar, BarChart3, LogOut, Activity } from 'lucide-react'
 
 export default function DashboardLayout() {
   const { user, signOut } = useAuth()

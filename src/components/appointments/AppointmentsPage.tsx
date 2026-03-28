@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { collection, query, getDocs, addDoc, updateDoc, doc } from 'firebase/firestore'
+import { collection, getDocs, addDoc, updateDoc, doc } from 'firebase/firestore'
 import { db } from '../../services/firebase'
 import { useAuth } from '../../contexts/AuthContext'
 import { Appointment, Patient } from '../../types'
