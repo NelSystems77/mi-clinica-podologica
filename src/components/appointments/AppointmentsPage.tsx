@@ -3,7 +3,7 @@ import { collection, getDocs, addDoc, updateDoc, doc } from 'firebase/firestore'
 import { db } from '../../services/firebase'
 import { useAuth } from '../../contexts/AuthContext'
 import { Appointment, Patient } from '../../types'
-import { Plus, Calendar as CalIcon, Check } from 'lucide-react'
+import { Plus, Search, Trash2, Check } from 'lucide-react'
 import { format } from 'date-fns'
 
 export default function AppointmentsPage() {

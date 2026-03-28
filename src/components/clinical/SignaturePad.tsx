@@ -12,7 +12,7 @@ export default function SignaturePad({ title, onSave, onClear }: SignaturePadPro
   const sigRef = useRef<SignatureCanvas>(null)
 
   const handleSave = () => {
-    if (sigRef.current?.isEmpty()) {
+    if (!sigRef.current || sigRef.current.isEmpty()) {
       alert('Por favor, firme primero')
       return
     }
